@@ -1,0 +1,23 @@
+Seller =  "TasBienRica" -- Seller EXACT USERNAME BETWEEN, "" ("Example")
+-- EXECUTE THE SCRIPT ON THE ALTS ONLY
+-- UNLESS YOU WANT THE [Seller] TO
+-- ALSO FOLLOW THE COMMANDS
+
+--[[
+    Commands:
+    .commands
+    .bringalts
+    .drop (Drops money in the alts)
+    .stop (Stops dropping cash)
+    .lagfree (Reduces lag and boost FPS)
+    .destroy (Destroys the cash on alts screen)
+    .wallet (Shows alt's wallet)
+    .crash (Shows crash menu to localplayer not alt's)
+
+    Built in:
+    Anti Afk
+    Crown to [Seller] 👑
+    
+--]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GS21Official/Seller-Tools/main/Seller%20Tools%3A%20Script"))()
