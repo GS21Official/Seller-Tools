@@ -1,7 +1,6 @@
-Seller =  "GS21" -- Seller EXACT USERNAME BETWEEN, "" ("Example")
--- EXECUTE THE SCRIPT ON THE ALTS ONLY
--- UNLESS YOU WANT THE [Seller] TO
--- ALSO FOLLOW THE COMMANDS
+getgenv().Seller =  "GS21" -- Seller EXACT USERNAME BETWEEN, "" ("Example")
+getgenv().altMsg = "Thanks for using GS21's Seller Tools" -- Message the alts will say when .chat
+-- MAKE SURE THE SELLER IS INSIDE THE SERVER BEFORE EXECUTING
 
 --[[
     Commands:
@@ -12,11 +11,15 @@ Seller =  "GS21" -- Seller EXACT USERNAME BETWEEN, "" ("Example")
     .lagfree (Reduces lag and boost FPS)
     .destroy (Destroys the cash on alts screen)
     .wallet (Shows alt's wallet)
+    .unwallet (Un-shows alt's wallet)
     .crash (Shows crash menu to localplayer not alt's)
+    .chat (Alt's chats the botMsg msg)
+    .base (Tp's all alts to Admin Base)
 
     Built in:
     Anti Afk
-    Crown to [Seller] 👑
+    Fire to [Seller] 🔥
+    Dropped Cash counter to [Seller]
     
 --]]
 
