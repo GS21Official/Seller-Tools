@@ -16,6 +16,8 @@ getgenv().altMsg = "Thanks for using GS21's Seller Tools" -- Message the alts wi
     .crash (Shows crash menu to localplayer not alt's)
     .chat (Alt's chats the botMsg msg)
     .base (Tp's all alts to Admin Base)
+    .freeze (freezes alts)
+    .unfreeze (unfreezes alts)
 
     Built in:
     Anti Afk
