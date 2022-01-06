@@ -18,6 +18,11 @@ getgenv().altMsg = "Thanks for using GS21's Seller Tools" -- Message the alts wi
     .base (Tp's all alts to Admin Base)
     .freeze (freezes alts)
     .unfreeze (unfreezes alts)
+    .setup (Brings alts to you then freezes them in place)
+
+    Commands with [name]:
+    .kill [name] --HAS TO BE EXACT NAME (if it tags # use next command)
+    .k [name] --HAS TO BE EXACT NAME (if it tags # use up command)
 
     Built in:
     Anti Afk
