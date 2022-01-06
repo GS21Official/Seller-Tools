@@ -10,6 +10,7 @@ getgenv().altMsg = "Thanks for using GS21's Seller Tools" -- Message the alts wi
     .stop (Stops dropping cash)
     .lagfree (Reduces lag and boost FPS)
     .destroy (Destroys the cash on alts screen)
+    .loopdestroy (Loop destroys money every 45 seconds on the alts)
     .wallet (Shows alt's wallet)
     .unwallet (Un-shows alt's wallet)
     .crash (Shows crash menu to localplayer not alt's)
