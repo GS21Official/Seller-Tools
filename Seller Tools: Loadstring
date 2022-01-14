@@ -1,34 +1,36 @@
-getgenv().Seller =  "GS21" -- Seller EXACT USERNAME BETWEEN, "" ("Example")
-getgenv().altMsg = "Thanks for using GS21's Seller Tools" -- Message the alts will say when .chat
+getgenv().Seller =  "GS21" -- Seller EXACT USERNAME ("Example") case sentive 
+getgenv().altMsg = "Thanks for using GS21's Seller Tools" -- Message the alts will say when .chat not .say
 -- MAKE SURE THE SELLER IS INSIDE THE SERVER BEFORE EXECUTING
 
 --[[
     Commands:
-    .commands
-    .bringalts
-    .drop (Drops money in the alts)
-    .stop (Stops dropping cash)
-    .lagfree (Reduces lag and boost FPS)
-    .destroy (Destroys the cash on alts screen)
-    .loopdestroy (Loop destroys money every 45 seconds on the alts)
-    .wallet (Shows alt's wallet)
-    .unwallet (Un-shows alt's wallet)
-    .crash (Shows crash menu to localplayer not alt's)
-    .chat (Alt's chats the botMsg msg)
-    .base (Tp's all alts to Admin Base)
-    .freeze (freezes alts)
-    .unfreeze (unfreezes alts)
-    .setup (Brings alts to you then freezes them in place)
+            .commands
+            .bringalts
+            .drop (Drops money in the alts)
+            .stop (Stops dropping cash)
+            .lagfree (Reduces lag and boost FPS)
+            .destroy (Destroys the cash on alts screen)
+            .loopdestroy (Loop destroys money every 45 seconds on the alts)
+            .wallet (Shows alt's wallet)
+            .unwallet (Un-shows alt's wallet)
+            .crash (Shows crash menu to alt's)
+            .chat (Alt's chats the botMsg msg)
+            .base (Tp's all alts to Admin Base)
+            .freeze (freezes alts)
+            .unfreeze (unfreezes alts)
+            .setup (Brings alts to you then freezes them in place)
+            .forcereset (Force resets the alt's)
+            .airlock (Alt's float in the air)
 
-    Commands with [name]:
-    .kill [name] --HAS TO BE EXACT NAME (if it tags # use next command)
-    .k [name] --HAS TO BE EXACT NAME (if it tags # use up command)
-
-    Built in:
-    Anti Afk
-    Fire to [Seller] 🔥
-    Dropped Cash counter to [Seller]
+        Commands with [custom]:
+            .kill [name] --HAS TO BE EXACT NAME (if it tags # use next command)
+            .k [name] --HAS TO BE EXACT NAME (if it tags # use up command)
+            .say [msg] (Alts will say the msg you type)
     
+        Built in:
+            Anti Afk
+            Fire to [Seller] 🔥
+            Dropped Cash counter to [Seller] (broken rn srry)
 --]]
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GS21Official/Seller-Tools/main/Seller%20Tools%3A%20Script"))()
