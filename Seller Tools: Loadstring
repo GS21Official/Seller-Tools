@@ -29,6 +29,7 @@ Commands with [custom]:
     .kill [name] --HAS TO BE EXACT NAME (if it tags # use next command)
     .k [name] --HAS TO BE EXACT NAME (if it tags # use up command)
     .say [msg] (Alts will say the msg you type)
+    .fps [number] -- Sets FPS Cap for alt's
 
 Built in:
     Anti Afk
