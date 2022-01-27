@@ -34,6 +34,8 @@ Free -------------------------------------------
             .chat (Alt's chats the botMsg msg)                                    |
             .base (Tp's all alts & main to Admin Base)                            |
             .basketball (Tp's all alts & main to Basketball)                      |
+            .bank                                                                 |
+            .gas                                                                  |
             .freeze (freezes alts)                                                |
             .unfreeze (unfreezes alts)                                            |
             .setup (Brings alts to you then freezes them in place)                |
@@ -47,6 +49,7 @@ Free -------------------------------------------
             .k [name] --HAS TO BE EXACT NAME (if it tags # use up command)        |
             .say [msg] (Alts will say the msg you type)                           |
             .fps [number] -- Sets FPS Cap for alt's                               |
+            .goto [plr inicials]                                                  |
 
             Built in:                                                             |
             Anti Afk                                                              |
