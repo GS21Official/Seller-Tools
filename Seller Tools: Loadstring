@@ -24,7 +24,7 @@ Free -------------------------------------------
     -------------------------------------------------------------------------------
         Premium                                                                   |
             .commands (shows the command list ingame)                             |
-            .bringalts                                                            |
+            .bringalts or .bring   (brings alts)                                  |
             .altdrop (Drops money in alts only)                                   |
             .lagfree (Reduces lag and boost FPS)                                  |
             .loopdestroy (Loop destroys money every 45 seconds on the alts)       |
@@ -42,7 +42,18 @@ Free -------------------------------------------
             .forcereset (Force resets the alt's)                                  |
             .airlock (Alt's float in the air)                                     |
             .mask (Puts masks to alts to hide name)                               |
+            .chatspamm (spamms the getgenv().altMsg every 6 seconds)              |
+            .chatstop (Stops .chatspamm)                                          |
             .donate (This is if you would like to donate some bobux)              |
+
+        
+            Victim Menu:                                                          |
+            fling                                                                 |
+            target                                                                |
+            view                                                                  |
+            goto                                                                  |
+            no fog                                                                |
+            force reset                                                           |
 
             Commands with [custom]:                                               |
             .kill [name] --HAS TO BE EXACT NAME (if it tags # use next command)   |
