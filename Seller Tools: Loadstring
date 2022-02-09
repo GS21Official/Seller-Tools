@@ -1,8 +1,8 @@
 getgenv().Seller =  "GS21" -- Seller EXACT USERNAME ("Example") case sentive 
 getgenv().altMsg = "Thanks for using GS21's Seller Tools" -- Message the alts will say when .chat not .say
 getgenv().prefix = "." -- Prefix example .drop  ,  -drop  ,  ~drop  ,  !drop  , $drop   etc etc
--- MAKE SURE THE SELLER IS INSIDE THE SERVER BEFORE EXECUTING
 
+-- MAKE SURE THE SELLER IS INSIDE THE SERVER BEFORE EXECUTING
 -- To see the commands use .commmands on chat to see the full list
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GS21Official/Seller-Tools/main/Seller%20Tools%3A%20Script"))()
