@@ -1,4 +1,5 @@
-wait(1)
+pcall(function()
 if game.Players.LocalPlayer.UserId == 91644678 then
   game.ReplicatedStorage.MainEvent:FireServer("CHECKER_1", p2)
 end
+end)
