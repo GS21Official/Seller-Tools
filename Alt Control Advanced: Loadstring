@@ -1,0 +1,10 @@
+getgenv().Host = "GS21" --Host account name here (case sensitive)
+getgenv().Prefix = "."
+getgenv().altMsg = "Thanks for using GS21 Alt Control Advanced" -- Message the alts will say when .chat
+getgenv().Alts = { --To add your alts use the same format | EXAMPLE: Alt3 = altId, etc etc 
+    Alt1 = 123456789,
+    Alt2 = 123456789,
+}
+--The CURRENT limit for alts is 12, I will be adding more as the new updates come out
+--The script takes a few seconds to load, dont leave the game just let it load
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GS21Official/Seller-Tools/main/Alt%20Control%20Advanced%3A%20Script'))()
