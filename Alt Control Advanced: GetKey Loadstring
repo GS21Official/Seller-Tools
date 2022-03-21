@@ -1,2 +1,3 @@
 -- Execute this on a baseplate game or any simple game
+-- I recommend executing it in this game: https://www.roblox.com/games/4483381587/VOICE-CHAT-a-literal-baseplate
 loadstring(game:HttpGet('https://raw.githubusercontent.com/GS21Official/Seller-Tools/main/Alt%20Control%20Advanced%3A%20GetKey'))()
