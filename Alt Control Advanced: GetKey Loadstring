@@ -1,0 +1,2 @@
+-- Execute this on a baseplate game or any simple game
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GS21Official/Seller-Tools/main/Alt%20Control%20Advanced%3A%20GetKey'))()
