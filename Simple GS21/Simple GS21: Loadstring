@@ -1,0 +1,18 @@
+getgenv().Host = "GS21" --Host account name here
+getgenv().Prefix = "."
+getgenv().Alts = { -- Limit is 24 Alts
+    Alt1 = 123456,
+    Alt2 = 123456,
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GS21Official/Seller-Tools/main/Simple%20GS21/Simple%3A%20Script"))()\\
+--[[
+This will be alt ctrl while I unpatch the main one, I only added indispensable stuff
+  Commands:
+  .drop / .stop
+  .altdrop / .stop
+  .crash -- This can be broken sometimes idk why, if u wanna crash join the server with another account and crash it
+  .setup base
+  .cashaura / .uncashaura
+  
+  Anti Afk and performance mode automatically executed]]
