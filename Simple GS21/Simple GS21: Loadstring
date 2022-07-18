@@ -5,7 +5,7 @@ getgenv().Alts = { -- Limit is 24 Alts
     Alt2 = 123456,
 }
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/GS21Official/Seller-Tools/main/Simple%20GS21/Simple%3A%20Script"))()\\
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GS21Official/Seller-Tools/main/Simple%20GS21/Simple%3A%20Script"))()
 --[[
 This will be alt ctrl while I unpatch the main one, I only added indispensable stuff
   Commands:
