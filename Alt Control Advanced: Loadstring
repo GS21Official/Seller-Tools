@@ -5,4 +5,5 @@ getgenv().Alts = { --Limit is 24 Alts | --Alt1 will be the crasher when you call
     Alt1 = 123456789,
     Alt2 = 123456789,
 }
+--Use .commands ingame and type /console in chat to see the command list
 loadstring(game:HttpGet('https://raw.githubusercontent.com/GS21Official/Seller-Tools/main/Alt%20Control%20Advanced%3A%20Script'))()
