@@ -1,7 +1,7 @@
 getgenv().Host = "GS21" --Host account name here (case sensitive)
 getgenv().Prefix = "."
-getgenv().altMsg = "Thanks for using GS21 Alt Control Advanced" -- Message the alts will say when .chat
-getgenv().Alts = { --Limit is 24 Alts | --Alt1 will be the crasher when you call the crash cmd
+getgenv().altMsg = "GS21 ON TOP>>" -- Message the alts will say when .chat
+getgenv().Alts = { --Limit is 31 Alts | --Alt1 will be the crasher when you call the crash cmd
     Alt1 = 123456789,
     Alt2 = 123456789,
 }
