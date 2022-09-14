@@ -1,6 +1,5 @@
 getgenv().Host = "GS21" --Host account name here (case sensitive)
 getgenv().Prefix = "."
-getgenv().Key = "discord.gg/GS21 to get key" --If you paid for premium you don't need key
 getgenv().altMsg = "GS21 ON TOP>>" -- Message the alts will say when .chat
 getgenv().Alts = { --Limit is 31 Alts | --Alt1 will be the crasher when you call the crash cmd
     Alt1 = 123456789,
